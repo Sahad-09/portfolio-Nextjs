@@ -16,12 +16,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme="synthwave" lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
-        
+    <html data-theme="forest" lang="en">
+      <body  className={inter.className}>
+          <div className=' w-[80%] mx-auto'>
+          <Navbar />
+          {children}
+          <Footer />
+          </div>
         </body>
     </html>
   )

@@ -4,7 +4,7 @@ import Image from 'next/image';
 function Footer() {
   return (
     <>
-     <div className=' fixed bottom-0  w-[100%] pb-3'>
+     <div className='fixed bottom-3  w-[80%]'>
       <div className=' flex w-[90%]  mx-auto justify-between'>
       <p>©2023 Lamamia. All rights reserved.</p>
         <div className=' flex space-x-3'>
