@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className='text-7xl bg-gradient-to-b from-[#194c33] to-[#bbb] text-transparent bg-clip-text '>
           Developers are the architects of the digital world.
           </h1>
-          <p>
+          <p className='py-8'>
             “If you feel like there’s something out there that you’re supposed to be doing, if you have a passion for it, then stop wishing and just do it.”
           </p>
         </div>
