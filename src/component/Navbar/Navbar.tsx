@@ -35,13 +35,13 @@ function Navbar() {
     <>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Sahad</a>
+          <a className=" text-[#194c33] btn btn-ghost normal-case text-2xl">Sahad</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             {links.map((link) => (
               <li key={link.id}>
-                <Link href={link.url}>{link.title}</Link>
+                <Link className='text-base' href={link.url}>{link.title}</Link>
               </li>
             ))}
           </ul>
